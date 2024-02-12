@@ -63,3 +63,26 @@ h1 {
   outline: none;
   color: whitesmoke;
 }
+
+.input-group input:focus {
+  box-shadow: 0 0 15px 0 rgba(36, 131, 131, 0.346);
+}
+
+.msg {
+  display: none;
+}
+
+button {
+  color: white;
+  background-color: rgba(0, 139, 139, 0.212);
+  border: 2px solid darkcyan;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+
+button:hover,
+button:focus {
+  background-color: rgba(0, 139, 139, 0.301);
+  cursor: pointer;
+}
